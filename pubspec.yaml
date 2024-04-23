@@ -1,0 +1,49 @@
+name: done_app
+description: Done App.
+publish_to: 'none'
+version: 1.2.2
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #iOS styles
+  cupertino_icons: ^1.0.2
+
+  #State Management
+  provider: ^6.0.3
+
+  #Notifications
+  flutter_local_notifications: ^9.7.0
+
+  #Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  #Animations
+  lottie: ^1.4.0
+  flutter_staggered_animations: ^1.1.1
+
+  #Routing
+  auto_route: ^4.0.1
+
+  #Chart
+  charts_flutter: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  hive_generator: ^1.1.3
+  build_runner: ^2.2.0
+  auto_route_generator: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/lottie/
